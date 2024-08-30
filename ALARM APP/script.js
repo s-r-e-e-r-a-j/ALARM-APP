@@ -1,4 +1,4 @@
-//Initial References
+
 let timerRef = document.querySelector(".timer-display");
 const hourInput = document.getElementById("hourInput");
 const minuteInput = document.getElementById("minuteInput");
@@ -11,10 +11,10 @@ let initialHour = 0,
   initialMinute = 0,
   alarmIndex = 0;
 
-//Append zeroes for single digit
+
 const appendZero = (value) => (value < 10 ? "0" + value : value);
 
-//Search for value in object
+
 const searchObject = (parameter, value) => {
   let alarmObject,
     objIndex,
